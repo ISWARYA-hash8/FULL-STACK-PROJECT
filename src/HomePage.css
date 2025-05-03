@@ -1,0 +1,182 @@
+.homepage {
+  font-family: 'Arial', sans-serif;
+  background-color: #f1f3f4;
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon {
+  margin-right: 10px;
+}
+
+.center-header {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header h2 {
+  color: #1a73e8;
+}
+
+.quote {
+  color: #5f6368;
+  font-style: italic;
+}
+
+.top-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.stat-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+}
+
+.stat-box h3 {
+  font-size: 18px;
+  color: #1a73e8;
+}
+
+.stat-box p {
+  font-size: 24px;
+  color: #5f6368;
+}
+
+.progress-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.progress {
+  width: 48%;
+}
+
+.cgpa-chart {
+  width: 48%;
+}
+
+.course-status {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.course-status h3 {
+  font-size: 20px;
+  color: #1a73e8;
+  margin-bottom: 10px;
+}
+
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.course-table th,
+.course-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.course-table th {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.course-table td {
+  color: #5f6368;
+}
+
+.view-button {
+  padding: 12px 24px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-button:hover {
+  background-color: #1358b4;
+}
+/* New Section Styles */
+.details-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.details-container h3 {
+  font-size: 20px;
+  color: #1a73e8;
+  margin-bottom: 10px;
+}
+
+.details-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.details-container th,
+.details-container td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.details-container th {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.details-container td {
+  color: #5f6368;
+}
+
+.status-icon {
+  font-size: 18px;
+}
+
+.status-icon.present {
+  color: green;
+}
+
+.status-icon.absent {
+  color: red;
+}

@@ -1,0 +1,109 @@
+.courses-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f3f4;
+    padding: 30px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .left-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-icon {
+    margin-right: 10px;
+  }
+  
+  .right-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .header h2 {
+    color: #1a73e8;
+  }
+  
+  .calendar {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  
+  .calendar h3 {
+    font-size: 20px;
+    color: #1a73e8;
+  }
+  
+  .calendar p {
+    font-size: 18px;
+    color: #5f6368;
+  }
+  
+  .course-flow {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-flow h3 {
+    font-size: 20px;
+    color: #1a73e8;
+    margin-bottom: 10px;
+  }
+  
+  .course-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-item {
+    margin-bottom: 15px;
+  }
+  
+  .course-item h4 {
+    font-size: 18px;
+    color: #1a73e8;
+  }
+  
+  .course-item p a {
+    font-size: 16px;
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .course-item p a:hover {
+    text-decoration: underline;
+  }
+  
+  .back-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .back-button:hover {
+    background-color: #1358b4;
+  }
+  
